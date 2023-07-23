@@ -62,7 +62,7 @@ listI.addEventListener("click",function(e){
  function edittask(ide){
     console.log(ide)
 
-    var a = prompt("Enter task", "the javatpoint.com");
+    var a = prompt("Enter task", "Task");
     var your_div = document.getElementById(ide);
     console.log("ff",your_div.childNodes[0])
 
